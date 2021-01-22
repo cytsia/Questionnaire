@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
- <h1>Questionnaire</h1>
+ <h1>How has quarantine impacted you?</h1>
  <h3>personal information</h3>
- <form>
+ <form action="form.html">
      <label for="name">name</label>
  <input type="text" id="name" placeholder="enter full name here" />
  <br> 
@@ -17,21 +17,24 @@
    <input type="email" id="email" placeholder="enter email here" />
    <br>  
    <h4>age</h4>
-   <label for="age">
+   <label for="14-">
+    <input type="radio" id="age" name="age">14-
+</label>
+   <label for="15-17">
        <input type="radio" id="age" name="age">15-17
    </label>
-   <label for="age">
+   <label for="18-20">
     <input type="radio" id="age" name="age">18-20
 </label>
-<label for="age">
+<label for="21+">
     <input type="radio" id="age" name="age">21+
 </label>
+<br>
 <label for="updates">
     <input type="checkbox" name="update" id="updates">
+Yes, I would like to be informed about future surveys and questionnaires</label>
 <br>
-keep me informed on future updates</label>
-<br>
-  <button type="submit">submit</button>
+  <button type="submit">next</button>
  </form>
 </body>
 </html>
