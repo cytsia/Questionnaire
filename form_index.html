@@ -3,15 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
  <h1>Questionnaire</h1>
- <form action="www.done">
+ <h3>personal information</h3>
+ <form>
      <label for="name">name</label>
-     <input type="text" id="name" placeholder="enter full name here">
-     <button type="submit">submit</button>
+ <input type="text" id="name" placeholder="enter full name here" />
+ <br> 
+ <label for= "email">email</label>
+   <input type="email" id="email" placeholder="enter email here" />
+   <br>  
+   <h4>age</h4>
+   <label for="age">
+       <input type="radio" id="age" name="age">15-17
+   </label>
+   <label for="age">
+    <input type="radio" id="age" name="age">18-20
+</label>
+<label for="age">
+    <input type="radio" id="age" name="age">21+
+</label>
+<label for="updates">
+    <input type="checkbox" name="update" id="updates">
+<br>
+keep me informed on future updates</label>
+<br>
+  <button type="submit">submit</button>
  </form>
 </body>
 </html>

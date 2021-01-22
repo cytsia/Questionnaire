@@ -1,6 +1,16 @@
 /** @format */
-h1 {
-  font: 100;
-  color: aliceblue;
-  background-color: aliceblue;
+body {
+  margin: 0;
+  padding: 0;
+  background-origin: padding-box;
+  text-align: center;
+}
+#name,
+#email {
+  border-left-style: none;
+  border-top: none;
+  border-right: none;
+}
+input {
+  margin: 10px;
 }
